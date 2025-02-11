@@ -6,7 +6,7 @@
 /*   By: edetoh <edetoh@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 11:33:26 by edetoh            #+#    #+#             */
-/*   Updated: 2025/02/11 14:11:19 by edetoh           ###   ########.fr       */
+/*   Updated: 2025/02/11 14:50:12 by edetoh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,6 @@ Zombie *zombieHorde(int N, std::string name)
 int main()
 {
 	Zombie *horde = zombieHorde(20, "Ha");
-	(void)horde;
+	delete[] horde;
 	return 0;
 }
