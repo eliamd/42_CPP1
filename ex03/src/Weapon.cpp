@@ -6,7 +6,7 @@
 /*   By: edetoh <edetoh@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 16:44:42 by edetoh            #+#    #+#             */
-/*   Updated: 2025/02/11 17:35:21 by edetoh           ###   ########.fr       */
+/*   Updated: 2025/02/11 18:13:57 by edetoh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ Weapon::~Weapon()
 {
 }
 
-void Weapon::set_type(std::string type)
+void Weapon::setType(std::string type)
 {
 	this->type = type;
 }

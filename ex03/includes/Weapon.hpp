@@ -6,7 +6,7 @@
 /*   By: edetoh <edetoh@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 16:38:45 by edetoh            #+#    #+#             */
-/*   Updated: 2025/02/11 17:50:10 by edetoh           ###   ########.fr       */
+/*   Updated: 2025/02/11 18:13:55 by edetoh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ public:
 	Weapon(std::string type);
 	~Weapon();
 	/* --------------------------------- Setters -------------------------------- */
-	void set_type(std::string type);
+	void setType(std::string type);
 	/* --------------------------------- Getters -------------------------------- */
 	std::string get_type() const;
 };
